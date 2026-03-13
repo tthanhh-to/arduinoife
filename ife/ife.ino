@@ -64,13 +64,6 @@ void loop() {
       handleSelection();
     }
   }
-  // set the cursor to column 0, line 1
-  // (note: line 1 is the second row, since counting begins with 0):
-  // lcd.setCursor(0, 0);
-  // lcd.print("x:" + String(mapX));
-  // lcd.setCursor(8, 0);
-  // lcd.print("y:" + String(mapY));
-  // print the number of seconds since reset:
 }
 void updateDisplay(){
   lcd.clear();
